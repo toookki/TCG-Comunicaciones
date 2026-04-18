@@ -1,0 +1,35 @@
+project/
+│
+├── server/
+│   │
+│   ├── network/
+│   │   ├── client_handler.py
+│   │   └── executive_handler.py
+│   │
+│   ├── services/
+│   │   ├── auth_service.py
+│   │   ├── user_service.py
+│   │   ├── shop_service.py
+│   │   └── generate_qr.py
+│   │
+│   ├── repository/
+│   │   ├── user_repository.py
+│   │   └── catalogue_repository.py
+│   │
+│   ├── utils/
+│   │   └── socket_utils.py
+│   │
+│   └── server.py
+│
+├── user/
+│   └── user.py
+│
+├── data/
+│   ├── users.json
+│   ├── catalogue.json
+│   └── executives.json
+│
+└── qr_codes/
+    ├── qr_1.png
+    ├── qr_2.png
+    └── ...

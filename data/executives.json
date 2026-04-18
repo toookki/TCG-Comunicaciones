@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Florencia Leon",
+        "email": "florencia@gmail.com",
+        "password": "florencia",
+        "totp_secret": "BWFAAMPXG6GWYHUOIXJW7V6OACPVB7NL"
+    },
+    {
+        "name": "Valentina Leon",
+        "email": "valentina@gmail.com",
+        "password": "valentina",
+        "totp_secret": "7A4MEGZ5PTVLDLXF56LMLSEVRZXEEAW7"
+    },
+    {
+        "name": "Alejandra Toro",
+        "email": "alejandra@gmail.com",
+        "password": "alejandra",
+        "totp_secret": "PISORUSUAL7WN2WXOFMJMYSGFGWGLLTM"
+    }
+]

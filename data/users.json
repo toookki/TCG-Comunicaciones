@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Martin Sepulveda",
+        "email": "martin@gmail.com",
+        "password": "martin",
+        "balance": 15000,
+        "history": [
+            {
+                "date": "10-04-2026",
+                "operation": "Cambio de contrasena"
+            },
+            {
+                "date": "12-04-2026",
+                "operation": "Cambio de contrasena"
+            }
+        ]
+    }
+]

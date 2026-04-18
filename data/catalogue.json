@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Piplup EX",
+        "price": 69,
+        "stock": 2
+    },
+    {
+        "id": 2,
+        "name": "Dragapult EX",
+        "price": 777,
+        "stock": 193
+    }
+]
