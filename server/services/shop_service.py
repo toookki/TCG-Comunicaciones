@@ -1,8 +1,8 @@
 import datetime
 
-from repository.user_repository import load_users, save_users
-from repository.catalogue_repository import load_catalogue, save_catalogue
-from utils.socket_utils import send, receive
+from server.repository.user_repository import load_users, save_users
+from server.repository.catalogue_repository import load_catalogue, save_catalogue
+from server.utils.socket_utils import send, receive
 
 def view_catalogue_buy(conn, user):
     try:

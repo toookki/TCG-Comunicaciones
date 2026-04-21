@@ -2,7 +2,7 @@ import os
 import pyotp
 import qrcode
 
-from repository.user_repository import load_executives, save_executives
+from server.repository.user_repository import load_executives, save_executives
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 QR_FOLDER = os.path.join(BASE_DIR, "qr_codes")

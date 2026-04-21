@@ -1,6 +1,6 @@
 import pyotp
 
-from repository.user_repository import load_users, load_executives
+from server.repository.user_repository import load_users, load_executives
 
 def authenticate(email, password):
     users = load_users()

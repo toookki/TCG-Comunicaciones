@@ -1,7 +1,7 @@
-from utils.socket_utils import send, receive
-from services.auth_service import authenticate
-from services.user_service import change_password, view_history
-from services.shop_service import view_catalogue_buy
+from server.utils.socket_utils import send, receive
+from server.services.auth_service import authenticate
+from server.services.user_service import change_password, view_history
+from server.services.shop_service import view_catalogue_buy
 
 def handle_client(conn, addr):
     user = None

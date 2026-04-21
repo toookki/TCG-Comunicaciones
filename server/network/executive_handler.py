@@ -1,5 +1,5 @@
-from utils.socket_utils import send, receive
-from services.auth_service import authenticate_executive
+from server.utils.socket_utils import send, receive
+from server.services.auth_service import authenticate_executive
 
 def handle_executive(conn, addr):
     executive = None

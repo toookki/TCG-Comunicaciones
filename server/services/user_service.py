@@ -1,7 +1,7 @@
 import datetime
 
-from repository.user_repository import load_users, save_users
-from utils.socket_utils import send, receive
+from server.repository.user_repository import load_users, save_users
+from server.utils.socket_utils import send, receive
 
 def change_password(conn, user):
     send(conn, "\nIngrese nueva contraseña:")

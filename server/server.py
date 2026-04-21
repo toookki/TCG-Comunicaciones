@@ -1,8 +1,8 @@
 import socket
 import threading
 
-from network.client_handler import handle_client
-from network.executive_handler import handle_executive
+from server.network.client_handler import handle_client
+from server.network.executive_handler import handle_executive
 
 HOST = "0.0.0.0"
 PORT = 5000
