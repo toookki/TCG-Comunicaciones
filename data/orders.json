@@ -1,0 +1,39 @@
+[
+    {
+        "type": "compra",
+        "client_email": "martin@gmail.com",
+        "items": [
+            {
+                "name": "Charmander",
+                "quantity": 1,
+                "price": 45
+            }
+        ],
+        "total": 45,
+        "status": "Devoluci\u00f3n aceptada",
+        "status_history": [
+            {
+                "status": "Pagado",
+                "date": "05-05-2026 09:33"
+            },
+            {
+                "status": "Enviado",
+                "date": "05-05-2026 09:33"
+            },
+            {
+                "status": "Recibido",
+                "date": "05-05-2026 09:34"
+            },
+            {
+                "status": "Devoluci\u00f3n solicitada",
+                "date": "05-05-2026 09:34"
+            },
+            {
+                "status": "Devoluci\u00f3n aceptada",
+                "date": "05-05-2026 09:34"
+            }
+        ],
+        "date": "05-05-2026",
+        "id": 1
+    }
+]

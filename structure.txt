@@ -1,0 +1,48 @@
+TCG-Comunicaciones/
+│
+├── data/
+│   ├── catalogue.json
+│   ├── deposits.json
+│   ├── executives.json
+│   ├── orders.json
+│   ├── users.json
+│   └── warehouse.json
+│
+├── qr_codes/
+│   ├── alejandra_toro.png
+│   ├── florencia_leon.png
+│   └── valentina_leon.png
+│
+├── server/
+│   │
+│   ├── network/
+│   │   ├── client_handler.py
+│   │   └── executive_handler.py
+│   │
+│   ├── repository/
+│   │   ├── catalogue_repository.py
+│   │   ├── deposit_repository.py
+│   │   ├── executive_repository.py
+│   │   ├── order_repository.py
+│   │   ├── user_repository.py
+│   │   └── warehouse_repository.py
+│   │
+│   ├── services/
+│   │   ├── auth_service.py
+│   │   ├── deposit_service.py
+│   │   ├── executive_service.py
+│   │   ├── generate_qr.py
+│   │   ├── order_service.py
+│   │   ├── shop_service.py
+│   │   └── user_service.py
+│   │
+│   ├── utils/
+│   │   ├── logger.py
+│   │   ├── server_state.py
+│   │   └── socket_utils.py
+│   │
+│   └── server.py 
+│
+└── user/
+    └── user.py
+ 

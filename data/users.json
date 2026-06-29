@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Martin Sepulveda",
+        "email": "martin@gmail.com",
+        "password": "martin",
+        "balance": 105160,
+        "history": []
+    },
+    {
+        "name": "Ian Rifo",
+        "email": "ian@gmail.com",
+        "password": "ian2",
+        "balance": 60020,
+        "history": []
+    }
+]
