@@ -1,3 +1,10 @@
+"""
+Repositorio del Catálogo.
+Abstrae el acceso a los datos persistentes del catálogo público (catalogue.json).
+Es el único componente autorizado para leer, modificar y proteger mediante cerrojos
+(locks) la concurrencia sobre dicho archivo.
+"""
+
 import json
 import threading
 import os

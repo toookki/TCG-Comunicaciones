@@ -1,3 +1,9 @@
+"""
+Servicio de Tienda y Catálogo.
+Contiene la lógica de negocio para que los clientes interactúen con el catálogo
+público, evalúen los precios, comprueben sus fondos y generen órdenes de compra.
+"""
+
 import datetime
 from server.repository.user_repository import load_users, save_users
 from server.repository.catalogue_repository import load_catalogue, save_catalogue, get_catalogue_lock

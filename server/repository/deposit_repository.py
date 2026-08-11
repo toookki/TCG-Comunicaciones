@@ -1,3 +1,10 @@
+"""
+Repositorio de Depósitos.
+Abstrae el acceso a los datos persistentes de los depósitos de fondos (deposits.json).
+Es el único componente autorizado para leer, modificar y proteger mediante cerrojos
+(locks) la concurrencia sobre dicho archivo.
+"""
+
 import json
 import threading
 import os

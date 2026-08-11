@@ -1,3 +1,10 @@
+"""
+Módulo cliente de la aplicación.
+Responsable de establecer la conexión con el servidor, manejar la interfaz de
+entrada/salida de texto con el usuario final, y orquestar el envío y recepción
+de mensajes a través del protocolo de sockets mediante multiplexación (select).
+"""
+
 import socket
 import getpass
 import select

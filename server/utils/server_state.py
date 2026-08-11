@@ -1,3 +1,10 @@
+"""
+Estado Global del Servidor.
+Almacena en memoria y de forma segura (thread-safe mediante locks) la lista
+de clientes y ejecutivos actualmente conectados, así como la cola de espera
+para soporte técnico.
+"""
+
 import threading
 
 connected_clients = {}

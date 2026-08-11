@@ -1,3 +1,9 @@
+"""
+Utilidad de Registro (Logging).
+Centraliza la salida de eventos y errores en la terminal del servidor,
+añadiendo marcas de tiempo estándar para facilitar la depuración y auditoría.
+"""
+
 import datetime
 import os
 

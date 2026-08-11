@@ -1,3 +1,10 @@
+"""
+Repositorio de Usuarios (Clientes).
+Abstrae el acceso a los datos persistentes de los clientes registrados (users.json).
+Es el único componente autorizado para leer, modificar y proteger mediante cerrojos
+(locks) la concurrencia sobre dicho archivo.
+"""
+
 import json
 import threading
 import os

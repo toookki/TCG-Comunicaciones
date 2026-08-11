@@ -1,3 +1,10 @@
+"""
+Servicio de Depósitos.
+Responsable de manejar las peticiones de los clientes para cargar fondos a
+sus cuentas, registrando el depósito en estado pendiente para posterior
+aprobación por parte de un ejecutivo.
+"""
+
 import datetime
 from server.repository.deposit_repository import add_deposit
 from server.utils.socket_utils import send, receive

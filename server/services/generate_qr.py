@@ -1,3 +1,10 @@
+"""
+Utilidad de Autenticación 2FA (Generador).
+Módulo aislado para la generación en tiempo de ejecución de las credenciales
+de Autenticación de Dos Factores y la creación del respectivo código QR como
+imagen para los ejecutivos del sistema.
+"""
+
 import os
 import pyotp
 import qrcode

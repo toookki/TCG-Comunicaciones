@@ -1,3 +1,10 @@
+"""
+Servicio del Ejecutivo (Operaciones).
+Provee las funcionalidades para que los ejecutivos administren el negocio:
+publicar, retirar o repreciar productos del catálogo, aprobar depósitos,
+despachar órdenes o chatear con los clientes en espera.
+"""
+
 import datetime
 import time
 

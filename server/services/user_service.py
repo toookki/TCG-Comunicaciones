@@ -1,3 +1,9 @@
+"""
+Servicio de Cuenta de Usuario.
+Gestiona la lógica de negocio relacionada con la cuenta individual de un cliente,
+como la consulta de saldo, historial de acciones y el cambio de contraseñas.
+"""
+
 import datetime
 from server.repository.user_repository import load_users, save_users
 from server.repository.order_repository import load_orders

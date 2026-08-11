@@ -1,3 +1,10 @@
+"""
+Servicio de Órdenes (Logística).
+Encapsula la lógica de negocio para la gestión del ciclo de vida de las
+órdenes generadas, permitiendo que el cliente confirme la recepción de los
+productos o solicite devoluciones de los mismos.
+"""
+
 from server.utils.socket_utils import send, receive
 from server.repository.order_repository import load_orders, save_orders
 import datetime

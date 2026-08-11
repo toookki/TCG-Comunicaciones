@@ -1,3 +1,10 @@
+"""
+Repositorio de Bodega (Inventario Interno).
+Abstrae el acceso a los datos persistentes del inventario privado (warehouse.json).
+Es el único componente autorizado para leer, modificar y proteger mediante cerrojos
+(locks) la concurrencia sobre dicho archivo.
+"""
+
 import json
 import threading
 import os

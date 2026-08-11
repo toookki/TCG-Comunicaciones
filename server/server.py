@@ -1,3 +1,10 @@
+"""
+Módulo de entrada principal del servidor.
+Responsable de inicializar el socket principal de escucha, aceptar conexiones
+entrantes y delegar el procesamiento de cada cliente o ejecutivo a un hilo
+independiente, manteniendo el servidor no bloqueante.
+"""
+
 import socket
 import threading
 

@@ -1,3 +1,9 @@
+"""
+Repositorio de Ejecutivos.
+Abstrae el acceso a los datos persistentes de los ejecutivos registrados
+(executives.json). Protege y aísla la lectura de credenciales de 2FA.
+"""
+
 import json
 import threading
 import os

@@ -1,3 +1,10 @@
+"""
+Controlador de sesión para usuarios tipo cliente.
+Responsable de aislar la lógica de red e interacción de la sesión de un cliente,
+gestionando su autenticación, presentando el menú de opciones interactivo, y
+encaminando sus solicitudes hacia la capa de servicios correspondiente.
+"""
+
 import threading
 from server.utils.socket_utils import send, receive
 from server.utils.server_state import add_client, remove_client, update_last_action, add_to_queue, get_clients_snapshot, remove_from_queue

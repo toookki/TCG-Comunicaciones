@@ -1,3 +1,10 @@
+"""
+Controlador de sesión para usuarios tipo ejecutivo.
+Responsable de manejar la conexión, autenticación de dos factores (2FA), y
+proveer un entorno de línea de comandos interactivo donde los ejecutivos
+puedan administrar inventario, clientes y órdenes delegando a la capa de servicios.
+"""
+
 from server.utils.socket_utils import send, receive
 from server.utils.server_state import add_executive, remove_executive, get_clients_snapshot, get_executives_snapshot
 from server.utils.logger import log

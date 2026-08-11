@@ -1,3 +1,10 @@
+"""
+Utilidad de Sockets.
+Abstrae las operaciones primitivas de la red (enviar y recibir bytes)
+implementando un protocolo con cabecera de tamaño fijo (8 bytes) para evitar
+el desbordamiento de búfer y asegurar la recepción de mensajes completos.
+"""
+
 HEADER_SIZE = 8  # 8 bytes para indicar el largo del mensaje
 
 def send(conn, msg):
